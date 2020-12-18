@@ -46,6 +46,7 @@ PRODUCT_PACKAGES_DEBUG_ASAN := false
 
 #BLissify
 BLISS_BUILDTYPE := OFFICIAL
+BLISS_BUILD_VARIANT=vanilla
 
 BUILD_FINGERPRINT := samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU6FTK1:user/release-keys
 
