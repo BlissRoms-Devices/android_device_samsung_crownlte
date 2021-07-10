@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 #Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
@@ -38,15 +38,8 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-#Disable debbuging
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-PRODUCT_PACKAGES_DEBUG := false
-PRODUCT_PACKAGES_DEBUG_ASAN := false
-
 #BLissify
-#BLISS_BUILDTYPE := OFFICIAL
-BLISS_BUILD_VARIANT=vanilla
+BLISS_BUILDTYPE := OFFICIAL
 
 BUILD_FINGERPRINT := samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU6FTK1:user/release-keys
 
