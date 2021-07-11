@@ -41,7 +41,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 #BLissify
 BLISS_BUILDTYPE := OFFICIAL
 
-BUILD_FINGERPRINT := samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU6FTK1:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=crownltexx \
